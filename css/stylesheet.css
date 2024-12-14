@@ -1,0 +1,997 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+height: 6000px;
+   background-color: rgb(233, 234, 235);
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/sports-equipment-wooden-background_51195-86.avif);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+.home-overlay{
+    position:absolute ;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.7);
+
+}
+.home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home-title{
+    font-size: 40px;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+.p-home{
+    color: rgba(240, 248, 255, 0.649);
+    font-size: 17px;
+    text-transform: capitalize;
+    margin: 20px 0px;
+    word-spacing: 2px;
+}
+
+.home-btn{
+    margin: 15px 10px;
+    width: 150px;
+    height: 50px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    font-size: larger;
+    border: 2px solid;
+}
+.home-btn:hover{
+    opacity: 0.4;
+}
+.bnt-learn-more{
+ color: rgba(233, 233, 233, 0.905);
+    background-color:rgb(193, 110, 56) ;
+    
+}
+.btn-get-started{
+    border: 3px solid rgb(226, 131, 67) ;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(97, 93, 93,0.7);
+ position: fixed;
+ z-index: 1000;   
+
+}
+.i-home{
+    float: left;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 30px;
+
+}
+.home_ul{
+    list-style: none;
+    float: left;
+   margin-left: 390px;
+   
+}
+.home-li{
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.home-a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.home-input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    float: left;
+    position: absolute;
+    margin-left: left;
+    margin-top: 5px;
+}
+.search-home{
+    position: relative;
+    float: left ;
+    margin: 5px;
+margin-right: 3px;
+padding-top: 5px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.container-fully{
+   margin-left: 13%;
+   height: 80vh;
+}
+.welcome{
+    margin: auto;
+}
+
+.welcome-website{
+    margin-left: 560px;
+    margin-top: 50PX;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: rgb(31, 31, 31);
+}
+.line-welcome{
+    width: 150px;
+    height: 4px;
+    background-color: rgb(142, 141, 141);
+    margin: auto;
+}
+
+.fully{
+    border: 2px solid grey;
+    height:200px ;
+    width: 350px;
+    color: black;
+    float :left ;
+   margin-right: 45px;
+   
+    margin-top: 50px;
+    position: relative;
+   border-radius: 5px;
+}
+.p-fully{
+    text-align: center  ;
+    padding-top:10px ;
+    color: grey;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+
+}
+
+.h2-fully{
+    text-align: center;
+    padding-top:7px ;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.i-fully{
+    padding-left: 45%;
+    text-align: center;
+    font-size: xx-large;
+    padding-top:20px ;
+    color:grey
+    
+
+}
+.a-fully{
+    padding-left:125px;
+    text-decoration: none;
+    color: rgb(84, 83, 83);
+    font-size: 20px;
+    text-transform: capitalize;
+  
+}
+
+.fully::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0 ;
+    top:0;
+    background-color:grey;
+    transition: 1s;
+}
+.fully:hover     .h2-fully{
+    color: rgb(0, 86, 86);
+}
+.fully:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.5;
+}
+.fully:hover .p-fully{
+    color: black;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.featured-works-container{
+    height:100vh ;
+    width: 100%;
+    background-color:  rgba(189, 180, 180, 0.7);
+    position: relative;
+}
+.title-featured-works{
+    width: 100%;
+    padding-top: 30px;
+}
+.h2-featured-works{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.line-featured-works{
+    width: 100px;
+    height: 4px;
+    background-color: rgb(142, 141, 141);
+    margin: auto;
+    margin-top: 5px;
+}
+.container-of-photos1{
+    width: 80%;
+    margin-left: 10%;
+    overflow: auto;
+}
+.photo1,.photo2, .photo3{
+    float: left;
+    border: 2px solid grey;
+    width: 30%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    margin: 20px 0;
+
+}
+.photo1{
+    background-image: url(../images/circle-weight-stones-sport-gym.jpg);
+}
+.photo2{
+    margin: 0 5%;
+    background-image: url(../images/close-up-crossfit-workout-weight.jpg);
+margin-top: 20px;
+}
+.photo3{
+    background-image: url(../images/cast-iron-dumbbell-weights.jpg);
+}
+
+.container-of-photos2{
+    width: 80%;
+    margin-left: 10%;
+    overflow: auto;
+}
+.photo4,.photo5, .photo6{
+    float: left;
+    border: 2px solid grey;
+    width: 30%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    position: relative;  
+
+}
+.photo4{
+    background-image: url(../images/kettlebell-gym-equipment-still-life.jpg);
+}
+.photo5{
+    margin: 0 5%;
+    background-image: url(../images/still-life-foam-roller\ \(2\).jpg);
+
+}
+.photo6{
+    background-image: url(../images/circle-weight-stones-sport-gym.jpg);
+}
+.category{
+    text-align: center;
+    padding-top: 20px;
+ font-size:30px;
+    text-transform: capitalize;
+   visibility: hidden;
+ } 
+ .Athletic-accessories{
+    text-align: center;
+    padding-top: 40px;
+    visibility: hidden;
+    font-size: 20px;
+ }
+ .heart{
+    padding-left: 40%;
+    font-size: 30px;
+    padding-top: 30px;
+    visibility: hidden;
+
+ }
+ .p{
+    font-size: 30px;
+    visibility: hidden;
+ }
+
+.photo-s:hover  .p{
+    visibility: visible;
+    color: aliceblue;
+}
+.photo-s:hover  .heart{
+    visibility: visible;
+    color: rgba(196, 9, 9, 0.832);
+}
+.photo-s:hover  .Athletic-accessories{
+    visibility: visible;
+    color:aliceblue;
+}
+ .photo-s:hover .category{
+    visibility: visible;
+    color: rgb(255, 255, 255);
+}
+.photo:hover  .p{
+    visibility: visible;
+    color: rgba(196, 9, 9, 0.832);
+}
+.photo:hover  .heart{
+    visibility: visible;
+    color: rgb(255, 255, 255);
+}
+.photo:hover  .Athletic-accessories{
+    visibility: visible;
+    color:aliceblue;
+}
+ .photo:hover .category{
+    visibility: visible;
+    color: rgb(253, 253, 253);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.we-offer-container{
+    width: 100%;
+    height: 100vh;
+}
+.title-we-offer{
+    width: 100%;
+    padding-top: 30px;
+}
+.we-offer{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.line-we-offer{
+    width: 100px;
+    height: 4px;
+    background-color: rgb(142, 141, 141);
+    margin: auto;
+    margin-top: 5px;
+}
+.container-we-offer1{
+    width: 80%;
+    margin-left: 15%;
+    overflow: auto;
+}
+.offer{
+    float: left;
+    width: 25%;
+   height: 200px;
+   border-radius: 5px;
+   border: 2px solid grey;
+   margin-top: 20px;
+   position: relative;
+}
+.offer2{
+    margin: 0 5%  ;
+    margin-top: 20px;
+}
+.h2-offer{
+    display: inline;
+    padding-top: 20px;
+text-align: center;
+}
+.i-offer{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: grey;
+}
+.offer-p{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: rgb(152, 146, 146);
+}
+.h21-offer{
+    padding-left: 48px;
+}
+.offer::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0 ;
+    top:0;
+    background-color:grey;
+    transition: 1s;
+}
+.offer:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.offer:hover     .offer-p{
+    color: rgb(0, 0, 0);
+    font-weight: bold
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.why-us-container{
+    height: 100vh;
+    width: 100%;
+    
+}
+.why-choose-us{
+    width: 100%;
+    height: 100vh;
+    
+}
+.line-why-us{
+    width: 50px;
+    height: 4px;
+    background-color:teal;
+    margin-left: 11.5%;
+}
+.h2-why-us{
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+.why-choose-us{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 100px;
+    float: left;
+    height: 500px;
+   
+}
+.p-why-us{
+    padding-top: 30px;
+    line-height: 25px;
+    color: rgba(0, 95, 95, 0.5);
+    padding-left: 60px;
+
+}
+.ul-why-us{
+    padding-left: 12%;
+    padding-top: 5%;
+}
+.li-why-us{
+    padding-top: 30px;
+    font-size: 18px;
+    color: rgb(1, 84, 84);
+}
+.photo-why-us{
+    float: right;
+    width: 25%;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    background-image: url(../images/view-composition-with-neatly-arranged-organized-sport-items.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ball{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    float: left;
+ 
+}
+.ball1{
+    margin-left: 5px;
+    height: 15px;
+    width: 15px;
+ background-color: rgb(166, 165, 165);
+    border-radius: 50%;
+    float :left;
+    margin-left: 1200px;
+    margin-top: -145;
+}
+.ball2{
+    margin-left: 1180px;
+    margin-top: -145px;
+    background-color: rgb(166, 165, 165);
+}
+.ball3{
+    margin-left: 1160px;
+    margin-top: -145px;
+    background-color: rgb(77, 77, 77);
+}
+.ball:hover{
+    background-color:rgb(77, 77, 77);
+
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.attachment-fixed-container{
+    width: 100%;
+    height: 50vh;
+    background-attachment: fixed;
+    background-image: url(../images/view-composition-with-neatly-arranged-organized-sport-items\ \(2\).jpg);
+    background-size: cover;
+}
+.icon1{
+    margin-top: 100px;
+ margin-left: 200px;
+ float: left;
+}
+.icon2{
+    margin-top: 100px;
+    margin-left: 200px;
+    float:left ;
+}
+.icon3{
+    margin-top: 100px;
+    margin-left: 200px;
+    float: left;
+}
+.icon4{
+    margin-top: 100px;
+    margin-left: 200px;
+    float: left;
+}
+.people{
+    color:rgba(255, 110, 48, 0.927);
+    font-size: 40px;
+    padding-left: 25px;
+}
+.people1{
+    color:rgba(255, 110, 48, 0.927);
+    font-size: 40px;
+    padding-left: 25px;
+}
+.people2{
+    color:rgba(255, 110, 48, 0.927);
+    font-size: 40px;
+    padding-left: 40px;
+}
+.people3{
+    color:rgba(255, 110, 48, 0.927);
+    font-size: 40px;
+    padding-left: 60px;
+}
+
+.h3-icon1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+}
+.h3-icon2{
+   text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    text-transform: capitalize;
+
+
+}
+.h3-icon3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    text-transform: capitalize;
+   
+}
+.h3-icon4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.happy{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+.award{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-transform: capitalize;
+}
+.cups{
+    text-transform: capitalize;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+.projects{
+    text-transform: capitalize;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.pricing-table-page{
+    width: 100%;
+height: 100vh;
+}
+.pricing{
+  width: 100%;
+}
+.pricing-table{
+    text-align: center;
+    margin-top: 50PX;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: rgb(31, 31, 31);
+    padding-bottom: 10px;
+  
+}
+.line-pricing{
+    width: 100px;
+    height: 4px;
+    background-color: rgb(142, 141, 141);
+    margin: auto;
+    margin-top: 5px;
+}
+.table-container{
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+}
+.table{
+    float: left;
+    width:30%;
+    height: 400px;
+    border: 2px solid grey;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+   
+ 
+}
+.table2{
+    margin:  0  5%;
+    margin-top: 30px;
+}
+.name-of-brand{
+    
+    text-align: center;
+    padding-top: 45px;
+    color: teal;
+}
+.cricle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.927);
+    margin: auto;
+    margin-top: 20px;
+}
+.price{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: teal;
+}
+.pricee{
+    text-align: center;
+    font-size: 20px;
+    color: teal;
+}
+.describe{
+  padding-top: 20px;
+    text-align: center;
+    color: teal;
+}
+.purchase{
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+margin-left: 100px;
+margin-top: 40px;
+z-index: 30;
+border: 2px solid white;
+background-color:rgba(255, 255, 255, 0.927) ;
+}
+.table::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    left: 0;
+    top:0;
+    background-color:rgb(41, 40, 40);
+    transition: 0.5s;
+}
+.table:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.table:hover   .purchase{
+    background-color:rgb(41, 40, 40) ;
+    color: aliceblue;
+    border: 2px solid rgb(41, 40, 40);
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.Marketing-page{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/view-perfectly-ordered-compositions.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay-markting{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(58, 57, 57, 0.7);
+}
+.first-person{
+    height: 100%;
+    width: 50%;
+    float:left ;
+}
+.markting{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../images/artist-white.jpg);
+    background-size: cover;
+    margin-left :250px; 
+    margin-top: 40px;
+    float: left;
+    margin-right: 20px;
+    
+}
+.markting1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../images/B6Q147C200-BLK_2.webp);
+    background-size: cover;
+    margin-top: 40px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 50px;
+    
+}
+
+.Noura-elsayed{
+    padding-top: 50px;
+    font-size: 30px;
+    color: azure;
+}
+.h3-markting{
+    color: rgb(5, 3, 128);
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.p-markting{
+    text-transform: capitalize;
+    word-spacing: 1px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 270px;
+}
+.p-1{
+    padding-left: 80px;
+padding-right: 190px;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.our-team-page{
+    width: 100%;
+    height: 80vh;
+}
+.our-team-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.team-items{
+    float: left;
+    background-color: rgb(193, 192, 192);
+    width: 30%;
+    padding: 14px 30px;
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    position: relative;
+}
+.team-img{
+ position: relative;
+}
+.team-img img{
+    width: 100%;
+  
+}
+.salah{
+    margin: 0 5%;
+}
+.team-overlay{
+    position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0,0.5) ;
+        visibility: hidden;
+}
+.team-items:hover .team-overlay {
+    visibility: visible;
+}
+
+.a-icon{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 191, 255,0.6);
+    color: aliceblue;
+    font-size:19px ;
+    margin-left: auto;
+}
+.team-overlay  a  i{
+    line-height: 40px;
+}
+.team-info{
+    padding: 10px  0;
+}
+.team-info-sp1{
+    text-transform: capitalize;
+   padding-top: 10px;
+   color: rgb(99, 99, 99);
+}
+.team-info-title{
+    padding: 10px 0 ;
+}
+.team-items:hover  .team-info-sp1{
+    color:blue
+}
+.team-items:hover  .team-info-title{
+    color:rgb(255, 255, 255)
+}
+ .team-items::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    left: 0;
+    top:0;
+    background-color:rgb(0, 191, 255,0.6);
+    transition: 0.5s;
+}
+.team-items:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+} 
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.recent-news-page{
+    width: 100%;
+    height: 100vh;
+}
+.recent-news-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.recent-news-items{
+    width: 30%;
+    text-align: center;
+    float: left;
+    text-transform: capitalize;
+    border: 2px solid rgb(0, 191, 255,0.6) ;
+    border-radius: 10px;
+    height: 480px;
+    position: relative;
+}
+.omar{
+    display: inline;
+    padding: 15px 0px 0px 3px;  
+}
+.omar1{
+    display: inline;
+    padding-right: 10px;
+  padding-left: 3px;
+}
+.recent-news-content{
+    margin-top: 280px;
+}
+.a-recent-news1{
+    padding-left: 10px;
+}
+.img-recent-news{
+    margin:10px 0;
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+ 
+}
+.img-recent-news  .img{
+  padding-left: 150px;
+}
+.recent-2{
+    margin: 0  5%;
+}
+.markting-manger{
+    padding: 10px 0;
+}
+.p-markting-manger{
+    padding: 10px 0;
+}
+.read-more{
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.recent-news-items::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    left: 0;
+    top:0;
+    background-color:rgb(0, 191, 255,0.6);
+    transition: 0.5s;
+}
+.recent-news-items:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+} 
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.final-section-page{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(97, 93, 93, 0.5);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.photo-final{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px; /* Add this line to move it 50px down */
+    background-image: url(../images/360_F_236629968_cvZT3xpLsf26tuvcJOLaU8xIR1GfPrus.jpg);
+    background-size: cover;
+ }
+ 
+
+.icon-holder{
+    width: auto;
+    margin-top: 5px;
+  
+}
+
+.iocon-final1, .iocon-final{
+    display: inline-block; 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(97, 93, 93, 0.5);
+    margin-right: px;
+    opacity: 0.4;
+}
+.i{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+    color:rgb(255, 255, 255);
+}
+.iocon-final1:hover{
+    opacity: 1;
+}
+.iocon-final:hover{
+    opacity: 1;
+}
+.div-p-final{
+    margin: auto;
+}
+.p-final{
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 9px;
+}
+
+
+
